@@ -1,0 +1,188 @@
+.btnnewhover:hover {
+    background-image: linear-gradient(45deg, #fd6b16, #f75477, #710e9e);
+    color: white !important;
+}
+.secnewcolor {
+    background-image: linear-gradient(45deg, #ec670e, #f75477, #710e9e);
+}
+.h1newfont {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+@media screen and (max-width: 575px) {
+    .headerimg {
+        margin-left: 8px !important;
+        margin-top: 2px !important;
+        width: 110px !important;
+    }
+    .headerbtn {
+        margin-right: 7px !important;
+        padding: 11px !important;
+    }
+    .divline {
+        margin-right: 7px !important;
+    }
+    .mainheader {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+   }
+   .h1new {
+       margin-bottom: 20px !important;
+       font-size: 30px !important;
+   }
+   .secbott {
+       margin-top: 15px;
+   }
+   .imginsta {
+       width: 300px;
+       margin-bottom: 0px !important;
+   }
+   .imgheading {
+       width: 400px;
+       text-align: center;
+       margin-top: 0px !important;
+   }
+   .howtonew {
+       width: 95%;
+       margin-left: 12px;
+   }
+   .newheadb {
+       margin-bottom: 20px;
+   }
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+  }
+  .footera {
+      color: rgb(172, 130, 130);
+      text-decoration: none;
+  }
+
+  /* Media Queries */
+
+@media screen and (max-width: 500px) {
+    .btnmediaquery1 {
+        border-radius: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .btnmediaquery3 {
+        padding: 13px;
+        border-radius: 8px !important;
+    }
+    .h1new {
+        font-size: 26px !important;
+    }
+    .secnewsize {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .secbott {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 500px) {
+    .formnewflex {
+        display: flex !important;
+    }
+    .btnmediaquery2 {
+        margin: 0 !important;
+        padding: 8px;
+    }
+    .btnmediaquery3:hover {
+        background-image: linear-gradient(45deg, #ec670e, #f75477, #710e9e);
+    }
+}
+@media screen and (min-width: 768px) {
+    .imginsta {
+        width: 300px;
+    }
+    .smallnav {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+.bignav {
+    display: none;
+}
+}
+
+/* Menu bar */
+
+.smallnav {
+    background-color: white;
+    cursor: pointer;
+}
+
+.menuline {
+    width: 25px;
+    height: 4px;
+    background-color: black;
+}
+
+.menuitems1 {
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 0;
+    z-index: 1;
+    transition: height 0.5s, width 0.5s;
+}
+
+.menuVisible {
+    height: 166px;
+    width: 200px;
+    visibility: visible;
+}
+
+.menuitems1 a {
+    text-decoration: none;
+    color: white;
+}
+/* .menuitems1 div {
+    border: 0.5px solid gray;
+} */
+.menuitems1 div:hover {
+    background-color: blue;
+}
+
+/* Main Function */
+
+.image-placeholder {
+    margin: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.result {
+    margin: auto;
+    padding: 4em 1em;
+}
+.result video, .result img {
+    width: calc(100% - 4em);
+    margin: 2em;
+}
+.result .download {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    transition: all 500ms ease;
+}
